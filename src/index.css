@@ -48,9 +48,14 @@ header {
   margin-top: 1rem;
 }
 
+.random-activity-btn {
+  margin-top: 1rem;
+}
+
 .footer-container {
   border-top: 1px solid black;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
