@@ -1,21 +1,25 @@
-import CraftButton from "./optionButtons/CraftButton";
+import CraftsButton from "./optionButtons/CraftsButton";
 import EducationalButton from "./optionButtons/EducationalButton";
 import FoodButton from "./optionButtons/FoodButton";
 import GamesButton from "./optionButtons/GamesButton";
 import OutdoorsButton from "./optionButtons/OutdoorsButton";
 import SoloButton from "./optionButtons/SoloButton";
+import DisplayActivity from "./DisplayActivity";
+import Crafts from "../data/crafts.json"
 
 const Options = () => {
   return (  
     <div className="options-section">
       
       <div className="options-header">
-        Select an Option
+        Choose an Activity
       </div>
+      
+      
       
       <div className="select-options-container">
         <div className="options-grid">
-          <CraftButton />
+          <CraftsButton />
           <EducationalButton />
           <FoodButton />
           <GamesButton />

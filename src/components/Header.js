@@ -2,10 +2,10 @@ const Header = () => {
   return (  
     <header>
       <div className="title">
-        Parental Assistant
+        Ideas For Dad
       </div>
       <div className="subtitle">
-        Here to assist
+        Ditch the screens. Make memories!
       </div>
       <div className="toggle">
         Image placeholder
