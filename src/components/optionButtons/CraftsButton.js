@@ -1,16 +1,24 @@
-import {useState} from 'react'
+import { useContext } from "react";
+import { DataContext } from "../../AppContext";
 
 const CraftsButton = () => {
-  const[btnClicked, SetBtnClicked]=useState(false)
+  const {dispatch, ACTION}=useContext(DataContext)
+  
+  const handleClick=()=>{
+    dispatch({
+      type: ACTION.ACTIVITY_CLICK,
+    })
 
-  const displayActivity=()=>{
-    SetBtnClicked(true)    
+    dispatch({
+      type: ACTION.SET_COUPLES
+    })
   }
+  
 
   return (  
     <>
       <button className='btn'
-              onClick={displayActivity}>
+              onClick={handleClick}>
               Crafts
       </button>
     </>
