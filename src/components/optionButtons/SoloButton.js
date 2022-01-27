@@ -8,6 +8,10 @@ const SoloButton = () => {
     dispatch({
       type: ACTION.ACTIVITY_CLICK
     })
+
+    dispatch({
+      type: ACTION.SET_SOLO
+    })
   }
   
   return ( 

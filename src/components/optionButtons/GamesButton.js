@@ -8,6 +8,10 @@ const GamesButton = () => {
     dispatch({
       type: ACTION.ACTIVITY_CLICK
     })
+
+    dispatch({
+      type: ACTION.SET_GAMES
+    })
   }
   
   return (  

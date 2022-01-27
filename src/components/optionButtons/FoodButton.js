@@ -8,6 +8,10 @@ const FoodButton = () => {
     dispatch({
       type: ACTION.ACTIVITY_CLICK
     })
+
+    dispatch({
+      type: ACTION.SET_FOOD
+    })
   }
   
   return ( 

@@ -10,7 +10,7 @@ const CraftsButton = () => {
     })
 
     dispatch({
-      type: ACTION.SET_COUPLES
+      type: ACTION.SET_CRAFTS
     })
   }
   

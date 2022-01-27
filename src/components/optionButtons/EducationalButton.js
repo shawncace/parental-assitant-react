@@ -8,6 +8,10 @@ const EducationalButton = () => {
     dispatch({
       type: ACTION.ACTIVITY_CLICK
     })
+
+    dispatch({
+      type: ACTION.SET_EDUCATIONAL
+    })
   }
   
   return ( 
