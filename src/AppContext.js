@@ -16,22 +16,25 @@ const ACTION = {
   SET_OUTDOORS: 'setOutdoors',
   SET_SOLO: 'setSolo',
   ACTIVITY_CLICK: 'activityClick',
+  NEXT_CLICK:'nextClick',
   GO_BACK_CLICK: 'goBackClick'
 }
 
-const reducer = (state={
-  activityName:''
-}, action) =>{
+let counter=0
+
+const shuffleArr = (arr)=> {
+  arr.sort(()=>Math.random()-0.5)
+  return arr
+}
+
+const reducer = (state, action) =>{
   switch(action.type){
     case 'setCrafts':
+      const craftData = shuffleArr(craftsData)
+      console.log(craftData)
       return{
         ...state, 
-        activityName: craftsData[0].category,
-        activityIdea: craftsData[0].idea,
-        image: craftsData[0].image,
-        alt: craftsData[0].alt,
-        description: craftsData[0].description,
-        url: craftsData[0].url
+        data:craftData
       }
     case 'setEducational':
       return{
@@ -60,6 +63,16 @@ const reducer = (state={
         activityIdea: soloData[0].idea}
     case 'activityClick':
       return{...state, clicked:true}
+    case 'nextClick':
+      counter=state.index 
+      state.data.length-1===counter?
+        counter=0
+        :
+        counter=state.index +1
+      return{
+        ...state,
+        index:counter
+      }
     case 'goBackClick':
       return{...state, clicked:false}
     default:
@@ -68,30 +81,35 @@ const reducer = (state={
 }
 
 const DataProvider = (props)=>{
+  
   const [state, dispatch]=useReducer(reducer,{
+    fakeIndex:0,
+    index:0,
     clicked: false,
-    couples: false,
-    activityName: '',
-    activityIdea: '',
-    image:'',
-    alt: '',
-    description: '',
-    url:''
+    data:[
+      {
+        
+        idea:'',
+        description:'',
+        image:'',
+        url:'',
+        alt:'',
+        category:''
+      }
+    ] 
   })
   
 
   return (
     <DataContext.Provider
       value={{
+        
         ACTION,
         clicked: state.clicked,
-        activityName: state.activityName,
-        activityIdea:state.activityIdea,
-        image:state.image,
-        alt:state.alt,
-        description:state.description,
-        url:state.url,
-        dispatch
+        data:state.data,
+        index:state.index,
+        dispatch,
+       
       }}>
       {props.children}
     </DataContext.Provider>

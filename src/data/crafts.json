@@ -1,11 +1,33 @@
 [
   {
     "id": 1,
-    "idea": "Make Play-dough!",
+    "idea": "Make Play-dough",
     "description": "It's the craft that magically turns into more crafts! Learn how to make it at home.",
-    "url": "https://craftsbyamanda.com/how-to-make-play-dough/#wprm-recipe-container-34212",
+    "url": "https://craftsbyamanda.com/how-to-make-play-dough",
     "image": "https://craftsbyamanda.com/wp-content/uploads/2021/08/How-to-Make-Play-Dough-RC-SQ-500x500.jpg",
     "alt": "A stack of colorful homemade play dough",
     "category":"Craft"
+  },
+
+  {
+    "id": 2,
+    "idea": "Popsicle Stick Penguins",
+    "description": "What's the cutest critter in the animal kingdom? There's a correct answer to this question and that answer is PENGUINS.",
+    "url": "https://www.thebestideasforkids.com/popsicle-stick-penguin-craft/",
+    "image": "https://i2.wp.com/www.thebestideasforkids.com/wp-content/uploads/2018/01/Craft-Stick-Penguin.jpg",
+    "alt": "Penguin made out of popsicle sticks and other craft items",
+    "category":"Craft"
+  },
+
+  {
+    "id": 3,
+    "idea": "Popsicle Stick Penguins",
+    "description": "What's the cutest critter in the animal kingdom? There's a correct answer to this question and that answer is PENGUINS.",
+    "url": "https://www.thebestideasforkids.com/popsicle-stick-penguin-craft/",
+    "image": "https://i2.wp.com/www.thebestideasforkids.com/wp-content/uploads/2018/01/Craft-Stick-Penguin.jpg",
+    "alt": "Penguin made out of popsicle sticks and other craft items",
+    "category":"Craft"
   }
+
+  
 ]

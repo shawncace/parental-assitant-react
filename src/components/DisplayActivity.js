@@ -5,46 +5,48 @@ const DisplayActivity = () => {
   const {
     dispatch, 
     ACTION, 
-    activityName, 
-    activityIdea,
-    image,
-    alt,
-    description,
-    url
+    
+    data,
+    index
   }=useContext(DataContext)
   
+  const handleNextActivityClick=()=>{
+    dispatch({type: ACTION.NEXT_CLICK})
+  }
+
   const handleGoBackClick=()=>{
     dispatch({
       type: ACTION.GO_BACK_CLICK
     })
   }
 
+
   
 
   return (
     <>
       <div>
-        {activityName} Ideas
+        {data[index].category} Ideas
       </div>
 
-      <button>Next Activity</button>
+      <button onClick={handleNextActivityClick}>Next Activity</button>
 
-      <div>{activityIdea}</div>
+      <div>{data[index].idea}</div>
 
       <div className="idea-wrapper">
-        <img src={image} 
-             alt={alt} 
+        <img src={data[index].image} 
+             alt={data[index].alt} 
              className='image'
         />
 
         <div className="description-container">
           <p className='description'>
-            {description}
+            {data[index].description}
           </p>
         </div>
 
         <div className="btn-container">
-          <a href={url}>
+          <a href={data[index].url} rel='noopener noreferrer' target='_blank'>
             <button>Take me there</button>
           </a>
           
