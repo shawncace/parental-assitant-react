@@ -21,11 +21,31 @@
 
   {
     "id": 3,
-    "idea": "Popsicle Stick Penguins",
-    "description": "What's the cutest critter in the animal kingdom? There's a correct answer to this question and that answer is PENGUINS.",
-    "url": "https://www.thebestideasforkids.com/popsicle-stick-penguin-craft/",
-    "image": "https://i2.wp.com/www.thebestideasforkids.com/wp-content/uploads/2018/01/Craft-Stick-Penguin.jpg",
-    "alt": "Penguin made out of popsicle sticks and other craft items",
+    "idea": "Dino Feet",
+    "description": "Make some dinosaur feet and roam the house like you're starring in Jurassic Park",
+    "url": "https://www.highlights.com/parents/crafts/stomp-dino-feet",
+    "image": "https://highlights2.azureedge.net/sites/default/files/public/styles/parents_featured_image/public/stomp-dino-feet._main_0.jpg?itok=pO9MOAwU&c=db702a5d70a698f50ba617e3fa3ad09f",
+    "alt": "Homemade three-toed dinosaur coverings on top of feet",
+    "category":"Craft"
+  },
+
+  {
+    "id": 4,
+    "idea": "Turn a Cardboard Box into a Knight's Sword & Shield",
+    "description": "Why play with a fancy toy when the box it comes in is so much fun!",
+    "url": "https://www.redtedart.com/make-knights-shield/",
+    "image": "https://www.redtedart.com/wp-content/uploads/2014/01/Cardboard-Shield-Craft.jpg.webp",
+    "alt": "Boy wielding a sword and shield made from a cardboard box",
+    "category":"Craft"
+  },
+
+  {
+    "id": 5,
+    "idea": "Bring a classic children's book to life",
+    "description": "Eric Carle is a legendary children's author. Bring his hungry caterpillar to life!",
+    "url": "https://www.thesprucecrafts.com/very-hungry-caterpillar-crafts-for-kids-4125556",
+    "image": "https://www.thesprucecrafts.com/thmb/dofGziE82ZYKreaypGENw-p3V6s=/362x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/paperchain-58897a605f9b5874ee1b446b.jpg",
+    "alt": "A paper crafted caterpillar with a book in the background",
     "category":"Craft"
   }
 
