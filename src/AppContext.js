@@ -30,17 +30,18 @@ const shuffleArr = (arr)=> {
 const reducer = (state, action) =>{
   switch(action.type){
     case 'setCrafts':
-      const craftData = shuffleArr(craftsData)
-      console.log(craftData)
+      const craft = shuffleArr(craftsData)
+      console.log(craft)
       return{
         ...state, 
-        data:craftData
+        data:craft
       }
     case 'setEducational':
+      const education = shuffleArr(educationalData)
       return{
         ...state, 
-        activityName: educationalData[0].category,
-        activityIdea: educationalData[0].idea}
+        data:education
+      }  
     case 'setFood':
       return{
         ...state,

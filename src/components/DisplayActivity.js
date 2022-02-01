@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import { DataContext } from "../AppContext";
+import ImageLoad from "./ImageLoad";
 
 const DisplayActivity = () => {
   const {
     dispatch, 
     ACTION, 
-    
     data,
     index
   }=useContext(DataContext)
@@ -34,10 +34,14 @@ const DisplayActivity = () => {
       <div>{data[index].idea}</div>
 
       <div className="idea-wrapper">
-        <img src={data[index].image} 
+        <ImageLoad
+          src={data[index].image}
+          alt={data[index].alt}
+          />
+        {/* <img src={data[index].image} 
              alt={data[index].alt} 
              className='image'
-        />
+        /> */}
 
         <div className="description-container">
           <p className='description'>
