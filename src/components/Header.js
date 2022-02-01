@@ -2,13 +2,13 @@ const Header = () => {
   return (  
     <header>
       <div className="title">
-        Ideas For Dad
+        Activity Zone
       </div>
       <div className="subtitle">
-        Ditch the screens. Make memories!
+        Make some family memories!
       </div>
       <div className="toggle">
-        Image placeholder
+        🌛
       </div>
     </header>
   );

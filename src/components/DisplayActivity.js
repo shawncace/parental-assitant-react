@@ -25,13 +25,13 @@ const DisplayActivity = () => {
 
   return (
     <>
-      <div>
+      <div className='category-title'>
         {data[index].category} Ideas
       </div>
 
-      <button onClick={handleNextActivityClick}>Next Activity</button>
+      <button className='action-btn' onClick={handleNextActivityClick}>Next Activity</button>
 
-      <div>{data[index].idea}</div>
+      <div className='specific-activity-title'>{data[index].idea}</div>
 
       <div className="idea-wrapper">
         <ImageLoad
@@ -51,7 +51,7 @@ const DisplayActivity = () => {
 
         <div className="btn-container">
           <a href={data[index].url} rel='noopener noreferrer' target='_blank'>
-            <button>Take me there</button>
+            <button className="action-btn">Take me there</button>
           </a>
           
         </div>
@@ -60,7 +60,7 @@ const DisplayActivity = () => {
       </div>
 
       <button 
-        className='go-back-btn'
+        className='action-btn'
         onClick={handleGoBackClick}>go back</button>
     </>
     );

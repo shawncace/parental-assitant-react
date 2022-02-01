@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Poppins:wght@300;400;700&family=Source+Code+Pro&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Bebas+Neue&family=Courgette&family=Dongle&family=IBM+Plex+Sans+Thai+Looped&family=Poppins:wght@300;400;700&family=Source+Code+Pro&family=Zen+Kurenaido&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #1e1b30;
+  background-color: #172835;
   color: rgb(201, 201, 201);
 }
 
@@ -21,6 +21,28 @@ header {
   align-items: center;
 }
 
+.title {
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: "Courgette";
+  font-size: 1.5rem;
+  color: rgb(211, 211, 211);
+}
+
+.category-title {
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .options-section {
   margin-top: 1rem;
   display: flex;
@@ -28,27 +50,47 @@ header {
   align-items: center;
 }
 
+.options-header {
+  font-family: "Poppins";
+  color: yellow;
+  font-size: 1.15rem;
+}
+
 .select-options-container {
   margin-top: 1rem;
 }
 
 .options-grid {
-  border: 1px solid rgb(197, 197, 201);
+  border: 0.5px solid rgb(70, 70, 70);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0.5rem;
   width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
 }
 
 .btn {
-  color: purple;
+  color: rgb(92, 2, 92);
   height: 50px;
   width: 30%;
   font-family: sans-serif;
   margin-bottom: 1rem;
   margin-top: 1rem;
   cursor: pointer;
+  font-family: "Poppins";
+  font-weight: bolder;
+  border-color: purple;
+  background-color: rgb(250, 220, 250);
+}
+
+.specific-activity-title {
+  font-family: "Poppins";
+  color: yellow;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .idea-wrapper {
@@ -68,8 +110,13 @@ header {
 }
 
 .description {
+  margin-top: 1.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  color: white;
+  font-weight: none;
 }
 
 .btn-container {
@@ -77,8 +124,19 @@ header {
   justify-content: center;
 }
 
-.random-activity-btn {
+.action-btn {
   margin-top: 1rem;
+  font-family: "Zen Kurenaido";
+  font-size: 1.05rem;
+  color: white;
+  background-color: #172835;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .footer-container {
@@ -88,6 +146,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Poppins";
+  font-size: 0.8rem;
 }
 
 .footer-link {

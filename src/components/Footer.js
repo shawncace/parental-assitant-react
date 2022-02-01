@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className='footer-container'>
       
       <p>Made by 
-      <a className='footer-link' href='https://github.com/shawncace/'>
+      <a className='footer-link' href='https://shawnyboy.netlify.app/'>
         Shawn Caceres
         </a>
       </p>
