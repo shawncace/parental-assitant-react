@@ -43,10 +43,11 @@ const reducer = (state, action) =>{
         data:education
       }  
     case 'setFood':
-      return{
+      const food = shuffleArr(foodData)  
+    return{
         ...state,
-        activityName: foodData[0].category, 
-        activityIdea: foodData[0].idea}
+        data:food
+      }
     case 'setGames':
       return{
         ...state,

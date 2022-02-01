@@ -7,5 +7,45 @@
     "image": "https://cdn.handsonaswegrow.com/wp-content/uploads/2014/10/photo-scavenger-hunt.jpg",
     "alt": "A child using an ipad to take photos",
     "category": "Educational"
+  },
+
+  {
+    "id": 2,
+    "idea": "Word Puzzles",
+    "description": "Make your own collection of word puzzles that's perfect for any young reader",
+    "url": "https://www.andnextcomesl.com/2013/03/sight-word-popsicle-stick-puzzles.html",
+    "image": "https://1.bp.blogspot.com/-J9GpjuVqC-Y/UnB3U47rSDI/AAAAAAAAGdQ/CZtSVDnTegs/s1600/IMG_20130318_101452.jpg",
+    "alt": "Colorful popsicle sticks with words written on top",
+    "category": "Educational"
+  },
+
+  {
+    "id": 3,
+    "idea": "Printable Fraction Flowers",
+    "description": "Turn a notoriously tricky mathematical concept into visual fun",
+    "url": "https://teachbesideme.com/fraction-flowers/",
+    "image": "https://teachbesideme.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-07-at-8.55.04-PM.png",
+    "alt": "A collection of paper plates with colorful fractions glued on top",
+    "category": "Educational"
+  },
+
+  {
+    "id": 4,
+    "idea": "Secret Decoder Wheel",
+    "description": "Spy Kids is no longer just for the big screen. Enlist your little special agents and go on a secret mission.",
+    "url": "https://dabblesandbabbles.com/printable-secret-decoder-wheel/",
+    "image": "https://thecraftingchicks.com/wp-content/uploads/2018/07/spy-decoder-facebook.jpg",
+    "alt": "Girl using a decoder wheel to solve a secret code",
+    "category": "Educational"
+  },
+
+  {
+    "id": 5,
+    "idea": "Museums",
+    "description": "There are few things better for the future of a growing mind than the wonders of the past. Find one near you!",
+    "url": "https://www.fwmuseum.org/",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthisbelongsinamuseum.com%2Fwp-content%2Fuploads%2Ffort-worth-museum-of-science-and-history-texas-1.jpg&f=1&nofb=1",
+    "alt": "Dinosaur bones on display in a museum",
+    "category": "Educational"
   }
 ]
