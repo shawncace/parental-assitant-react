@@ -62,6 +62,8 @@ const DisplayActivity = () => {
       <button 
         className='action-btn'
         onClick={handleGoBackClick}>go back</button>
+
+        <div></div>
     </>
     );
 }
