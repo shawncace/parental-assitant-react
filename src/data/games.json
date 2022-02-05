@@ -1,11 +1,41 @@
 [
   {
     "id": 1,
-    "idea": "Games!",
-    "description": "It's the craft that magically turns into more crafts! Learn how to make it at home.",
-    "url": "https://craftsbyamanda.com/how-to-make-play-dough/#wprm-recipe-container-34212",
-    "image": "https://craftsbyamanda.com/wp-content/uploads/2021/08/How-to-Make-Play-Dough-RC-SQ-500x500.jpg",
-    "alt": "A stack of colorful homemade play dough",
+    "idea": "Pirate Map",
+    "description": "X marks the spot mateys! Turn the day into a fun filled pirate treasure romp",
+    "url": "https://timvandevall.com/maps/blank-treasure-map-templates-for-children/",
+    "image": "https://timvandevall.com/wp-content/uploads/edd/printable-treasure-map-for-kids-350.jpg",
+    "alt": "Detailed pirate map leading to treasure",
+    "category": "Game"
+  },
+
+  {
+    "id": 2,
+    "idea": "Duck Duck Goose",
+    "description": "This legendary chasing game will have everyone laughing in excitement. Watch the goose give chase!",
+    "url": "https://www.kidspot.com.au/parenting/things-to-do/duck-duck-goose/news-story/db6d250d75e48a6f55302675796ff1f4",
+    "image": "https://content.api.news/v3/images/bin/546830f7557728f2e3bdcb71d151e342?width=640",
+    "alt": "Kids sitting in a circle on a field of grass playing a game of duck duck goose",
+    "category": "Game"
+  },
+
+  {
+    "id": 3,
+    "idea": "Paper Football",
+    "description": "Tackling at home or in the classroom probably isn't allowed. Paper football is a little less rambunctious but still carries all the fun!",
+    "url": "https://www.wikihow.com/Make-a-Paper-Football",
+    "image": "https://www.wikihow.com/images/thumb/e/e3/Make-a-Paper-Football-Step-13-Version-5.jpg/v4-460px-Make-a-Paper-Football-Step-13-Version-5.jpg.webp",
+    "alt": "A finger holds down a paper football",
+    "category": "Game"
+  },
+
+  {
+    "id": 4,
+    "idea": "Obstacle Course",
+    "description": "If you want to tire your little one out there's no better option than an obstacle course constructed from simple things around the house!",
+    "url": "https://www.familyeducation.com/fun/indoor-activities/indoor-obstacle-course",
+    "image": "https://www.familyeducation.com/sites/default/files/styles/tablets/public/2018-11/indoor-ostacle-course_feature.gif?itok=ktXLLOgS",
+    "alt": "A little girl crawls around amongst a homemade obstacle course",
     "category": "Game"
   }
 ]

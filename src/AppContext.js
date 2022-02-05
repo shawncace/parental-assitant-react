@@ -44,20 +44,22 @@ const reducer = (state, action) =>{
       }  
     case 'setFood':
       const food = shuffleArr(foodData)  
-    return{
+      return{
         ...state,
         data:food
       }
     case 'setGames':
+      const games=shuffleArr(gamesData)
       return{
         ...state,
-        activityName: gamesData[0].category, 
-        activityIdea: gamesData[0].idea}
+        data:games  
+      }
     case 'setOutdoors':
+      const outdoors=shuffleArr(outdoorsData)
       return{
         ...state,
-        activityName: outdoorsData[0].category, 
-        activityIdea: outdoorsData[0].idea}
+        data:outdoors    
+      }
     case 'setSolo':
       return{
         ...state, 
