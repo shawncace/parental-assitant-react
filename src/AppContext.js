@@ -61,10 +61,11 @@ const reducer = (state, action) =>{
         data:outdoors    
       }
     case 'setSolo':
+      const solo = shuffleArr(soloData)
       return{
         ...state, 
-        activityName: soloData[0].category,
-        activityIdea: soloData[0].idea}
+        data:solo
+      }
     case 'activityClick':
       return{...state, clicked:true}
     case 'nextClick':

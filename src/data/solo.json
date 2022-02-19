@@ -1,11 +1,43 @@
 [
   {
     "id": 1,
-    "idea": "Solo!",
-    "description": "It's the craft that magically turns into more crafts! Learn how to make it at home.",
-    "url": "https://craftsbyamanda.com/how-to-make-play-dough/#wprm-recipe-container-34212",
-    "image": "https://craftsbyamanda.com/wp-content/uploads/2021/08/How-to-Make-Play-Dough-RC-SQ-500x500.jpg",
-    "alt": "A stack of colorful homemade play dough",
+    "idea": "Learn an Instrument",
+    "description": "Sometimes you need some \"me\" time. Have you ever wanted to learn how to play a musical instrument? How about giving guitar a whirl!",
+    "url": "https://www.youtube.com/watch?v=HNSaXAe8tyg&ab_channel=MartyMusic",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/things-to-do-alone-guitar-1563916104.jpg?crop=0.668xw:1.00xh;0.0595xw,0&resize=640:*",
+    "alt": "A woman playing a guitar",
+    "category": "Solo"
+  },
+
+  {
+    "id": 2,
+    "idea": "Take a Workout Class",
+    "description": "Sometimes you need some \"me\" time. One of the best things you can do for yourself is exercise. The benefits of group exercise have been well established. So go do some planks with some friends!",
+    "url": "https://www.healthline.com/health-news/exercise-in-groups-get-more-health-benefits",
+    "image": "https://images-prod.healthline.com/hlcmsresource/images/News/exercise-fitness/1622-What_Do_Our_Bodies_Use_Testosterone_For-1200x800-newsletter.jpg",
+    "alt": "A man and woman working out together in the outdoors",
+    "category": "Solo"
+  },
+
+  {
+    "id": 3,
+    "idea": "Meditate",
+    "description": "Sometimes you need some \"me\" time. And sometimes that means saying Om. De-stress and declutter your mind with some meditation!",
+    "url": "https://www.everydayhealth.com/emotional-health/treatment/research-shows-meditation-can-slow-cognitive-decline/",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/things-to-do-alone-meditating-1563915908.jpg?crop=0.668xw:1.00xh;0.156xw,0&resize=640:*",
+    "alt": "A woman meditates on a rock with the sun setting in the background",
+    "category": "Solo"
+  },
+
+  {
+    "id": 4,
+    "idea": "Read a Book",
+    "description": "Sometimes you need some \"me\" time. There are few things as enriching as diving into a book. Through popular opinion, here's a list of 100 books you should read before die",
+    "url": "https://www.goodreads.com/list/show/137197.100_Books_to_Read_Before_You_Die_The_Ultimate_List",
+    "image": "https://api.gretchenrubin.com/wp-content/uploads/sites/2/2016/03/book-club-recomendations.jpg?quality=90&resize=650%2C355",
+    "alt": "An aerial view of a book collection",
     "category": "Solo"
   }
+
+
 ]

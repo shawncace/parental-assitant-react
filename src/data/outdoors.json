@@ -7,5 +7,35 @@
     "image": "https://www.verywellfamily.com/thmb/6CLWZXjZTj4vYfT_m6rVYM3rrAU=/425x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-563911235-570fbbbf3df78c3fa224b27e.jpg",
     "alt": "A girl blowing bubbles",
     "category": "Outdoor"
+  },
+
+  {
+    "id": 2,
+    "idea": "Tie-Dye Eggs",
+    "description": "It turns out that kids love decorating and hunting for eggs any time of the year, not just during Easter!",
+    "url": "https://www.verywellfamily.com/fun-easter-egg-decorating-ideas-for-kids-4158777",
+    "image": "https://www.verywellfamily.com/thmb/W9l2Bkcg9O6kYXToyCn5gSWr3lU=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-452413751-5702a8d25f9b581408a64249.jpg",
+    "alt": "A woman and boy decorating eggs",
+    "category": "Outdoor"
+  },
+
+  {
+    "id": 3,
+    "idea": "Hoola Hoops",
+    "description": "This one harkens back to older days. Turns out there's a billion different creative and fun things you can do with a simple round hoop. Here's 10 of them!",
+    "url": "https://www.verywellfamily.com/hula-hoop-games-and-activities-1256808",
+    "image": "https://www.verywellfamily.com/thmb/Nxr1UjeAdqiGImMJ6K43OJsauTA=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/175139139-56a2c9823df78cf77279f1fc.jpg",
+    "alt": "Kids playing with hoola hoops",
+    "category": "Outdoor"
+  },
+
+  {
+    "id": 4,
+    "idea": "Squirt Gun Painting",
+    "description": "Have a blast of a time while getting artistic as well. Squirt gun painting will surely bring a giant smile to the face of everyone invovled",
+    "url": "https://www.firefliesandmudpies.com/squirt-gun-painting/",
+    "image": "https://i2.wp.com/www.firefliesandmudpies.com/wp-content/uploads/Squirt-Gun-Painting-a-1.jpg",
+    "alt": "A squirt gun rests on a easel with colorful paintings",
+    "category": "Outdoor"
   }
 ]
