@@ -1,4 +1,5 @@
 import {DataProvider} from "./AppContext";
+// import './stylesheets/App.css'
 import Header from "./components/Header";
 import Options from "./components/Options"
 import Footer from "./components/Footer"
