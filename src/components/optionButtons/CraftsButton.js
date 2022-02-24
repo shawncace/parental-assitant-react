@@ -17,7 +17,7 @@ const CraftsButton = () => {
 
   return (  
     <>
-      <button className='btn'
+      <button className='options-btn'
               onClick={handleClick}>
               Crafts
       </button>

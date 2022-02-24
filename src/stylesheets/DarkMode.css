@@ -1,0 +1,24 @@
+#darkMode {
+  background: url("../images/moon2.png") no-repeat center;
+
+  background-size: 50px 50px;
+  margin-top: 0.4rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  transition: 0.5s ease-in-out;
+  outline: none;
+  /* outline: 1px solid red; */
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  background: url("../images/sun.png") no-repeat center;
+  transform: rotate(360deg);
+  background-size: 100px 100px;
+}

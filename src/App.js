@@ -1,5 +1,6 @@
 import {DataProvider} from "./AppContext";
-// import './stylesheets/App.css'
+import './stylesheets/App.css'
+import './stylesheets/DarkMode.css'
 import Header from "./components/Header";
 import Options from "./components/Options"
 import Footer from "./components/Footer"

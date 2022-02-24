@@ -38,7 +38,7 @@ const Options = () => {
             </div>
           </div>
 
-          <button className="action-btn">Random Activity</button>
+          <button className="random-activity-btn">Random Activity</button>
           </>
       }
     </div>

@@ -16,7 +16,7 @@ const EducationalButton = () => {
   
   return ( 
     <>
-      <button className='btn' onClick={handleClick}>Educational</button>
+      <button className='options-btn' onClick={handleClick}>Educational</button>
     </>
    );
 }

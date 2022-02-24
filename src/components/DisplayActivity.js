@@ -29,7 +29,7 @@ const DisplayActivity = () => {
         {data[index].category} Ideas
       </div>
 
-      <button className='action-btn' onClick={handleNextActivityClick}>Next Activity</button>
+      <button className='next-activity-btn' onClick={handleNextActivityClick}>Next Activity</button>
 
       <div className='specific-activity-title'>{data[index].idea}</div>
 
