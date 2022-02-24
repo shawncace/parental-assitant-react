@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Bebas+Neue&family=Courgette&family=Dongle&family=IBM+Plex+Sans+Thai+Looped&family=Poppins:wght@300;400;700&family=Source+Code+Pro&family=Zen+Kurenaido&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,10 +24,10 @@ header {
 }
 
 .title {
-  font-family: "Bebas Neue";
+  font-family: "Pangolin";
   text-transform: uppercase;
   color: yellow;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -33,6 +35,31 @@ header {
   font-family: "Courgette";
   font-size: 1.5rem;
   color: rgb(201, 201, 201);
+}
+
+#darkMode {
+  background: url("./images/moon2.png") no-repeat center;
+
+  background-size: 50px 50px;
+  margin-top: 0.4rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  transition: 0.5s ease-in-out;
+  outline: none;
+  /* outline: 1px solid red; */
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  background: url("./images/sun.png") no-repeat center;
+  transform: rotate(360deg);
+  background-size: 100px 100px;
 }
 
 .category-title {

@@ -1,3 +1,5 @@
+import Toggle from "./Toggle";
+
 const Header = () => {
   return (  
     <header>
@@ -8,7 +10,7 @@ const Header = () => {
         Make some family memories!
       </div>
       <div className="toggle">
-        🌛
+        <Toggle />
       </div>
     </header>
   );
