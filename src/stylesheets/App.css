@@ -21,9 +21,9 @@
   /* blues */
   --navy-blue: rgb(25, 85, 134);
   --slate-blue: rgb(23, 40, 53);
-  --full-blue: rgba(127, 223, 252);
+  --full-blue: rgb(176, 227, 243);
   --medium-blue: rgba(127, 223, 252, 0.5);
-  --light-blue: rgba(127, 223, 252, 0.1);
+  --light-blue: rgb(222, 241, 247);
 
   /* shadow */
   --dark-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
@@ -47,36 +47,28 @@ body {
   /* titles, headers, text */
   --title-text: var(--black);
   --subtitle-text: var(--medium-gray);
-  --index-text: var(--navy-blue);
+  --activity-title-text: var(--black);
   --description-text: var(--black);
-  --accent-text: var(--black);
+
   --footer-text: var(--black);
   --link-hover: var(--full-blue);
 
-  /* grid buttons and text */
-  --grid-btn-text: var(--navy-blue);
-  --row-one-color: var(--light-blue);
-  --row-two-color: var(--medium-blue);
-  --row-three-color: var(--full-blue);
-  --grid-btn-border-color: var(--navy-blue);
+  /* categorical options buttons and text */
+  --options-btn-text-color: var(--navy-blue);
+  --options-btn-first-row-background-color: var(--light-blue);
+  --options-btn-second-row-background-color: var(--full-blue);
+  --options-btn-border-color: var(--navy-blue);
+  --take-me-there-background-color: var(--navy-blue);
+  --take-me-there-font-color: var(--white);
+  --next-go-back-color: var(--navy-blue);
+  --next-go-back-background-color: var(--white);
 
   /* navigation buttons */
-  --show-random-btn-text: var(--white);
-  --show-random-btn-color: var(--navy-blue);
-  --index-btn-text: var(--navy-blue);
-  --index-btn-color: var(--white);
-  --take-me-there-btn-text: var(--white);
-  --take-me-there-btn-color: var(--navy-blue);
-  --clear-btn-text: var(--navy-blue);
-  --clear-btn-color: var(--white);
-  --home-btn-text: var(--navy-blue);
-  --home-btn-color: var(--white);
-  --btn-border-color: var(--navy-blue);
 
   --random-activity-btn-color: var(--navy-blue);
 
   /* card */
-  --box-shadow: var(--black-shadow);
+  --box-shadow: var(--light-shadow);
 }
 
 header {
@@ -140,12 +132,12 @@ header {
   padding: 0.5rem;
   width: 500px;
   border-radius: 5px;
-  box-shadow: var(--light-shadow);
+  box-shadow: var(--box-shadow);
   transition: var(--theme-transition);
 }
 
 .options-btn {
-  color: var(--navy-blue);
+  color: var(--options-btn-text-color);
   height: 50px;
   width: 30%;
   font-family: sans-serif;
@@ -154,22 +146,30 @@ header {
   cursor: pointer;
   font-family: "Poppins";
   font-weight: bolder;
-  border-color: var(--navy-blue);
-  background-color: var(--light-blue);
+  border-color: var(--options-btn-border-color);
+
   transition: var(--theme-transition);
+}
+
+.options-btn-first-row {
+  background-color: var(--options-btn-first-row-background-color);
+}
+
+.options-btn-second-row {
+  background-color: var(--options-btn-second-row-background-color);
 }
 
 .specific-activity-title {
   font-family: "Poppins";
-  color: var(--black);
+  color: var(--activity-title-text);
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
 .idea-wrapper {
-  border: 2px solid white;
   width: 75%;
+  box-shadow: var(--box-shadow);
 }
 
 .image {
@@ -189,7 +189,7 @@ header {
   margin-right: 2rem;
   font-family: "Poppins";
   font-size: 1.1rem;
-  color: white;
+  color: var(--description-text);
   font-weight: none;
 }
 
@@ -218,10 +218,41 @@ header {
   margin-top: 1rem;
   font-family: "Zen Kurenaido";
   font-size: 1.05rem;
-  color: var(--navy-blue);
+  color: var(--next-go-back-color);
   /* background-color: #172835; */
-  background-color: white;
-  border-color: var(--navy-blue);
+  background-color: var(--next-go-back-background-color);
+  border-color: var(--next-go-back-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.take-me-there-btn {
+  margin-top: 1rem;
+  font-family: "Zen Kurenaido";
+  font-size: 1.05rem;
+  color: var(--take-me-there-font-color);
+  background-color: var(--take-me-there-background-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.go-back-btn {
+  margin-top: 1rem;
+  font-family: "Zen Kurenaido";
+  font-size: 1.05rem;
+  color: var(--next-go-back-color);
+  border-color: var(--next-go-back-color);
+  background-color: var(--next-go-back-background-color);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.15rem;

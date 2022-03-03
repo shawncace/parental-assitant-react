@@ -51,7 +51,7 @@ const DisplayActivity = () => {
 
         <div className="btn-container">
           <a href={data[index].url} rel='noopener noreferrer' target='_blank'>
-            <button className="action-btn">Take me there</button>
+            <button className="action-btn take-me-there-btn">Take me there</button>
           </a>
           
         </div>
@@ -60,7 +60,7 @@ const DisplayActivity = () => {
       </div>
 
       <button 
-        className='action-btn'
+        className='go-back-btn'
         onClick={handleGoBackClick}>go back</button>
 
         <div></div>

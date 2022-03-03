@@ -16,7 +16,7 @@ const OutdoorsButton = () => {
   
   return ( 
   <>
-    <button className='options-btn' onClick={handleClick}>Outdoors</button>
+    <button className='options-btn options-btn-second-row' onClick={handleClick}>Outdoors</button>
   </> );
 }
  

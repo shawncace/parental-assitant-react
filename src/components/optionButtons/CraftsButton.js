@@ -17,7 +17,7 @@ const CraftsButton = () => {
 
   return (  
     <>
-      <button className='options-btn'
+      <button className='options-btn options-btn-first-row'
               onClick={handleClick}>
               Crafts
       </button>

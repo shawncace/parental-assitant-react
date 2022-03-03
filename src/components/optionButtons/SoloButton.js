@@ -16,7 +16,7 @@ const SoloButton = () => {
   
   return ( 
     <>
-      <button className='options-btn' onClick={handleClick}>Solo</button>
+      <button className='options-btn options-btn-second-row' onClick={handleClick}>Solo</button>
     </>
    );
 }

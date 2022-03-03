@@ -16,7 +16,7 @@ const GamesButton = () => {
   
   return (  
     <>
-      <button className='options-btn' onClick={handleClick}>Games</button>
+      <button className='options-btn options-btn-second-row' onClick={handleClick}>Games</button>
     </>
   );
 }

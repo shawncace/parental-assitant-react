@@ -16,7 +16,7 @@ const FoodButton = () => {
   
   return ( 
     <>
-      <button className='options-btn' onClick={handleClick}>Food</button>
+      <button className='options-btn options-btn-first-row' onClick={handleClick}>Food</button>
     </>
    );
 }
