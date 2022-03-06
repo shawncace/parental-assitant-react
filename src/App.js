@@ -9,6 +9,7 @@ function App() {
   return (
     <DataProvider>
       <div className="App">
+        yo
         <Header />
         <Options />
         <Footer />
