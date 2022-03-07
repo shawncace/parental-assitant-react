@@ -40,7 +40,7 @@ body {
   color: var(--body-color);
 }
 
-body {
+body.light {
   /* body */
   --background-color: var(--white);
 
