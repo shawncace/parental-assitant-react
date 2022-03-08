@@ -12,6 +12,7 @@
   /* neutrals */
   --black: black;
   --white: rgb(255, 255, 255);
+  --off-white: rgb(250, 250, 250);
   --medium-gray: rgb(70, 70, 70);
   --light-gray: rgb(201, 201, 201);
 
@@ -25,9 +26,17 @@
   --medium-blue: rgba(127, 223, 252, 0.5);
   --light-blue: rgb(222, 241, 247);
 
+  /* purples */
+  --purple: rgb(92, 2, 92);
+  --light-purple: rgb(250, 220, 250);
+
   /* shadow */
   --dark-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
   --light-shadow: 0 1px 2px 2px rgba(105, 105, 105, 0.3);
+
+  /* borders */
+  --no-border: none;
+  --dark-border: 0.5px solid rgb(70, 70, 70);
 
   /* transition */
   --theme-transition: background-color 0.4s ease-in-out, color 0.8s ease-in-out;
@@ -62,6 +71,7 @@ body.light {
   --take-me-there-font-color: var(--white);
   --next-go-back-color: var(--navy-blue);
   --next-go-back-background-color: var(--white);
+  --options-grid-border: var(--no-border);
 
   /* navigation buttons */
 
@@ -69,6 +79,35 @@ body.light {
 
   /* card */
   --box-shadow: var(--light-shadow);
+  --border: var(--no-border);
+}
+
+body.dark {
+  /* body */
+  --background-color: var(--slate-blue);
+
+  /* titles, headers, text */
+  --title-text: var(--yellow);
+  --subtitle-text: var(--light-gray);
+  --activity-title-text: var(--yellow);
+  --description-text: var(--off-white);
+  --footer-text: var(--black);
+
+  /* categorical options buttons and text */
+  --options-btn-text-color: var(--purple);
+  --options-btn-first-row-background-color: var(--light-purple);
+  --options-btn-second-row-background-color: var(--light-purple);
+  --options-btn-border-color: var(--purple);
+  --take-me-there-background-color: var(--slate-blue);
+  --take-me-there-font-color: var(--white);
+  --next-go-back-color: var(--white);
+  --next-go-back-background-color: var(--slate-blue);
+  --options-grid-border: var(--dark-border);
+  --random-activity-btn-color: var(--slate-blue);
+
+  /* card */
+  --box-shadow: var(--dark-shadow);
+  --border: var(--dark-border);
 }
 
 header {
@@ -125,7 +164,7 @@ header {
 }
 
 .options-grid {
-  /* border: 0.5px solid rgb(70, 70, 70); */
+  border: var(--options-grid-border);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -169,6 +208,7 @@ header {
 
 .idea-wrapper {
   width: 75%;
+  border: var(--border);
   box-shadow: var(--box-shadow);
 }
 
