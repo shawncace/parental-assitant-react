@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .options-grid {
+    width: 350px;
+  }
+
+  .idea-wrapper {
+    width: 350px;
+  }
+
+  .image {
+    max-height: 300px;
+  }
+}

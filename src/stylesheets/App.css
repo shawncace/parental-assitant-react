@@ -27,8 +27,10 @@
   --light-blue: rgb(222, 241, 247);
 
   /* purples */
-  --purple: rgb(92, 2, 92);
-  --light-purple: rgb(250, 220, 250);
+  --full-purple: rgb(199, 130, 255);
+  --medium-purple: rgb(210, 165, 255);
+  --light-purple: rgb(229, 205, 255);
+  --dark-purple: rgb(65, 0, 117);
 
   /* shadow */
   --dark-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
@@ -94,10 +96,10 @@ body.dark {
   --footer-text: var(--black);
 
   /* categorical options buttons and text */
-  --options-btn-text-color: var(--purple);
+  --options-btn-text-color: var(--dark-purple);
   --options-btn-first-row-background-color: var(--light-purple);
-  --options-btn-second-row-background-color: var(--light-purple);
-  --options-btn-border-color: var(--purple);
+  --options-btn-second-row-background-color: var(--medium-purple);
+  --options-btn-border-color: var(--dark-purple);
   --take-me-there-background-color: var(--slate-blue);
   --take-me-there-font-color: var(--white);
   --next-go-back-color: var(--white);
@@ -207,7 +209,7 @@ header {
 }
 
 .idea-wrapper {
-  width: 75%;
+  max-width: 500px;
   border: var(--border);
   box-shadow: var(--box-shadow);
 }

@@ -7,7 +7,7 @@ const Header = () => {
         Kid's Activity Zone
       </div>
       <div className="subtitle">
-        Make some family memories!
+        Make some memories!
       </div>
       <div className="toggle">
         <Toggle />
