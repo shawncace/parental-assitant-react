@@ -91,30 +91,18 @@ const DataProvider = (props)=>{
     fakeIndex:0,
     index:0,
     clicked: false,
-    data:[
-      {
-        
-        idea:'',
-        description:'',
-        image:'',
-        url:'',
-        alt:'',
-        category:''
-      }
-    ] 
+    data:[] 
   })
   
 
   return (
     <DataContext.Provider
       value={{
-        
         ACTION,
         clicked: state.clicked,
         data:state.data,
         index:state.index,
         dispatch,
-       
       }}>
       {props.children}
     </DataContext.Provider>
