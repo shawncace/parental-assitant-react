@@ -17,7 +17,8 @@ const ACTION = {
   SET_SOLO: 'setSolo',
   ACTIVITY_CLICK: 'activityClick',
   NEXT_CLICK:'nextClick',
-  GO_BACK_CLICK: 'goBackClick'
+  GO_BACK_CLICK: 'goBackClick',
+  RANDOM_CLICK: 'randomClick'
 }
 
 let counter=0
@@ -80,13 +81,20 @@ const reducer = (state, action) =>{
       }
     case 'goBackClick':
       return{...state, clicked:false}
+    case 'randomClick':
+      const allActivities = [...craftsData, ...educationalData, ...foodData, ...gamesData, ...outdoorsData, ...soloData]
+      shuffleArr(allActivities)
+      return{
+        ...state,
+        data:allActivities,
+        clicked: true
+      }
     default:
       throw new Error();
   }
 }
 
 const DataProvider = (props)=>{
-  
   const [state, dispatch]=useReducer(reducer,{
     fakeIndex:0,
     index:0,
@@ -94,7 +102,6 @@ const DataProvider = (props)=>{
     data:[] 
   })
   
-
   return (
     <DataContext.Provider
       value={{

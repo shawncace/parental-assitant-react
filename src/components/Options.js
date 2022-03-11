@@ -8,8 +8,7 @@ import GamesButton from "./optionButtons/GamesButton";
 import OutdoorsButton from "./optionButtons/OutdoorsButton";
 import SoloButton from "./optionButtons/SoloButton";
 import DisplayActivity from "./DisplayActivity";
-
-
+import RandomButton from "./RandomButton";
 
 const Options = () => {
   const {clicked}=useContext(DataContext)
@@ -25,8 +24,6 @@ const Options = () => {
             Choose a Category
           </div>
           
-          
-          
           <div className="select-options-container">
             <div className="options-grid">
               <CraftsButton />
@@ -38,13 +35,10 @@ const Options = () => {
             </div>
           </div>
 
-          <button className="random-activity-btn">Random Activity</button>
-          </>
+          <RandomButton />
+        </>
       }
     </div>
-      
-      
-      
   );
 }
  

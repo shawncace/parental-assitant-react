@@ -20,10 +20,7 @@ const DisplayActivity = () => {
     })
   }
 
-
-  
-
-  return (
+  return(
     <>
       <div className='category-title'>
         {data[index].category} Ideas
@@ -37,12 +34,8 @@ const DisplayActivity = () => {
         <ImageLoad
           src={data[index].image}
           alt={data[index].alt}
-          />
-        {/* <img src={data[index].image} 
-             alt={data[index].alt} 
-             className='image'
-        /> */}
-
+        />
+        
         <div className="description-container">
           <p className='description'>
             {data[index].description}
@@ -51,21 +44,14 @@ const DisplayActivity = () => {
 
         <div className="btn-container">
           <a href={data[index].url} rel='noopener noreferrer' target='_blank'>
-            <button className="action-btn take-me-there-btn">Take me there</button>
+            <button className="take-me-there-btn">Take me there</button>
           </a>
-          
         </div>
-        
-        
       </div>
 
-      <button 
-        className='go-back-btn'
-        onClick={handleGoBackClick}>go back</button>
-
-        <div></div>
+      <button className='go-back-btn' onClick={handleGoBackClick}>go back</button>
     </>
-    );
+  );
 }
  
 export default DisplayActivity;
